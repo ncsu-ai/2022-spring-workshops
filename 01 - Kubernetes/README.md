@@ -2,11 +2,6 @@
 
 A starter repository for AI Club at NC State's first workshop of the Spring 2022 semester which covers Kubernetes.
 
-### Reference
-- [What exactly is Kubernetes?](https://towardsdatascience.com/what-exactly-is-kubernetes-52c9f1c4990b)
-- [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [Get started with Kubernetes (using Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
-
 ### Prerequisites
 1. Install [Docker Desktop](https://www.docker.com/get-started) which comes pre-packaged with a local Kubernetes environment
 2. Install [Python 3.7+](https://www.python.org/downloads/) (the workshop was created using Python 3.10, so you may experience compatibility/versioning issues with older versions of Python)
@@ -25,29 +20,18 @@ A starter repository for AI Club at NC State's first workshop of the Spring 2022
    ```
    kubectl config use-context docker-desktop
    ```
-5. TODO: Create venv
-6. TODO: Activate venv
-7. TODO: Install dependencies
-8. TODO: Run Jupyter Notebook
-9. Follow along in `Kubernetes.ipynb`
+5. [Create and activate a new virtual environment](https://python.land/virtual-environments/virtualenv)
+6. Install Python dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+7. Start a Jupyter Notebook server
+   ```
+   jupyter notebook
+   ```
+8. Follow along in `01 - Kubernetes/Kubernetes.ipynb`
 
-
-
-
-
-9. Create deployment
-10. List your deployments
-11. View your deployed app
-12. In order for your deployment to be accessible without using the Proxy, you must configure a Service
-13. Explore your app
-14. View the container logs
-15. Executing commands in a container
-16. Exposing your app publicly
-17. Using labels
-18. Deleting a service (need to delete deployment separately)
-19. Scale up your app
-20. Load balancing
-21. Scale down your app
-22. Updating your app
-23. Verifying your update
-24. Rollback your update
+### Reference
+- [What exactly is Kubernetes?](https://towardsdatascience.com/what-exactly-is-kubernetes-52c9f1c4990b)
+- [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Get started with Kubernetes (using Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
