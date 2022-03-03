@@ -17,12 +17,7 @@ A starter repository for AI Club at NC State's second workshop of the Spring 202
    ```
 4. Follow along in `02 - Cluster Analysis/Kubernetes.ipynb`
 
-### Reference (Definitely)
+### Reference
 - [8 Clustering Algorithms in Machine Learning that All Data Scientists Should Know](https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/)
 - [scikit learn 1.0.2 documentation](https://scikit-learn.org/stable/modules/clustering.html)
 - [How to do Unsupervised Clustering with Keras](https://www.dlology.com/blog/how-to-do-unsupervised-clustering-with-keras/)
-
-### Reference (Maybe)
-- [The 5 Clustering Algorithms Data Scientists Need to Know](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
-- [7 Innovative Uses of Clustering Algorithms in the Real World](https://datafloq.com/read/7-innovative-uses-of-clustering-algorithms/)
-- [Clustering Validation Statistics](http://www.sthda.com/english/wiki/wiki.php?id_contents=7952)
