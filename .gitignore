@@ -1,3 +1,10 @@
 .idea/
 venv/
 */.ipynb_checkpoints/
+*/__pycache__/
+03 - MLFlow/data/*
+!03 - MLFlow/data/.gitkeep
+03 - MLFlow/results/*
+!03 - MLFlow/results/.gitkeep
+03 - MLFlow/mlruns/*
+!03 - MLFlow/mlruns/.gitkeep
